@@ -1,0 +1,48 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Josefin Sans';
+    background-color: #FCF7F8;
+}
+.navBar{
+    display:flex;
+    justify-content:space-between;
+    justify-self: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+}
+.navBarLinks{
+    display: flex;
+    gap: 25%;
+}
+.navBarLinks a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+
+}
+.navBarLinks:active{
+    text-decoration:dashed;
+}
+.navBarLinks a:hover{
+    color: #a31621;
+
+}
+.navBar button:hover{
+    color: #a31621;
+}
+
+.Icons button{
+    border: none;
+    width:fit-content;
+    background-color: #FCF7F8;
+}
+
+.Icons{
+    display: flex;
+    height:100px;
+    width:90px;
+    gap: 20%;
+    justify-content: center;
+
+}
