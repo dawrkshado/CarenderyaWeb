@@ -4,6 +4,48 @@ body{
     background-color: #FCF7F8;
 }
 
+#noBGlogo{
+    width: 10vw;
+}
+
+#dish{
+
+
+}
+
+#secondSentence{
+    font-size: 4rem;
+}
+
+#searchBar{
+    outline: none;
+    border: none;
+    height:35px;
+    width: 245px;
+    font-family:'Josefin Sans';
+    font-size: 1rem;
+}
+
+#searchButton{
+    width: 35px;
+    height: 35px;
+    background-color: #a31621;
+    border-radius: 15px;
+    margin-top: 1px;
+    border: none;
+}
+#searchButton:hover{
+    opacity: 0.9;
+
+}
+#cook{
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+/*classes*/
+
 .navBar{
     display:flex;
     justify-content:space-between;
@@ -50,78 +92,3 @@ body{
 
 }
  
-#noBGlogo{
-    width: 10vw;
-}
-
-.secondDivision{  
-    z-index: 1;
-    position:relative;
-    display:flex;
-    justify-content: center;
-    background-color: aquamarine;
-    height: 560px;
-}
-
-#dish{
-    position:absolute;
-    z-index: 1;
-}
-
-.Text{
-    z-index: 1;
-    align-self: center;
-
-}
-.firstSentence{
-    font-size: 6rem;
-    color: #FCF7F8;
-}
-
-#secondSentence{
-    font-size: 4rem;
-}
-
-#searchBar{
-    outline: none;
-    border: none;
-    height:35px;
-    width: 245px;
-    font-family:'Josefin Sans';
-    font-size: 1rem;
-}
-
-#searchButton{
-    width: 35px;
-    height: 35px;
-    background-color: #a31621;
-    border-radius: 15px;
-    margin-top: 1px;
-    border: none;
-}
-#searchButton:hover{
-    opacity: 0.9;
-
-}
-.searchButtonDiv{
-    position: absolute;
-
-    margin-left:260px;
-}
-.searchBarDiv{
-   
-    background-color: black;
-    width: fit-content;
-    margin-left: 5px;
-}
-
-.searchContainer{
-    border-radius: 15px;
-    margin-top: 25px;
-    background-color:white;
-    height: 45px;
-    width: 300px;;
-    justify-self: center;
-    align-content: center;
-
-}  
