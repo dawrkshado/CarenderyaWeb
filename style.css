@@ -1,6 +1,7 @@
     *{
         margin: 0;
         padding: 0;
+
     }
     body{
         overflow-x: hidden;
@@ -13,16 +14,46 @@
     }
 
 
+    #findrec{
+        font-size: 3rem;
+    }
+    
+    #searchButton{
+        position: relative;
+        left: 215px;
+        height: 32px;
+        width: 32px;
+        border-radius: 10px;
+        background-color: #a31621;
+        border: none;
+    }
 
-    #Text{
-        position: absolute;
-        height: fit-content;
-        width: fit-content;
-        background-color: aqua;
-        font-size: 1rem;
+    #searchBox{
+        width: 225px;
+        height: 40px;
+        border-radius: 15px;
+        border: none;
     }
 
     /*classes*/
+
+    .center{
+        position: absolute;
+        height: min-content;
+        width: min-content;
+        font-size: 6.5rem;
+        color: #FCF7F8;
+    }
+    
+    .searchSection{
+
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin-top: 15px;
+    }
+    
     .bg{
         display:flex;
         justify-content: center;
@@ -55,7 +86,7 @@
     }
     .navBarLinks a:hover{
         color: #a31621;
-        text-decoration:dashed;
+
     }
     .navBar button:hover{
         color: #a31621;
