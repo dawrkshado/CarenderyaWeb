@@ -23,6 +23,11 @@ body{
     font-size: 4rem;
     color: black;
 }
+#bgPic760{
+    display: none;
+    }
+
+
 
 
 #searchButton{
@@ -42,12 +47,23 @@ body{
     border: none;
 }
 #cook{
-    width: 200px;
-    height: 200px;
+    width: 175px;
+    height: 150px;
+}
+#chef{
+    height: 150px;
+    width: 100px;
 }
 
 
 /*classes*/
+.moreInfo {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 .center{
     position: absolute;
     height: fit-content;
@@ -124,7 +140,13 @@ body{
 /* lg */
 @media (max-width: 1024px) {
   
-    #delicious{
+   
+
+}
+
+/* md */
+@media (max-width: 768px) {
+     #delicious{
     font-size: 5rem;
 
     }
@@ -134,22 +156,26 @@ body{
     .center {
             text-align: center;
     }
-
-}
-
-/* md */
-@media (max-width: 768px) {
-      .navBarLinks{
+    
+    .navBarLinks{
         display: none;
     }
     #bgPic{
-    
+        display: none;
     }
- 
+    #bgPic760{
+        display: block;
+    }
+    .moreInfo {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 /* sm */
-@media (max-width: 640px) {}
+@media (max-width: 640px) {
+}
 
 /* xs */
 @media (max-width: 475px) {}
