@@ -147,16 +147,16 @@ body{
 /* md */
 @media (max-width: 768px) {
      #delicious{
-    font-size: 5rem;
+    font-size: 4rem;
 
     }
     #findrec{
-    font-size: 2.5rem;
+    font-size: 2.5rem ;
     }
     .center {
             text-align: center;
     }
-    
+
     .navBarLinks{
         display: none;
     }
@@ -168,8 +168,7 @@ body{
     }
     .moreInfo {
         margin-top: 100px;
-        display: flex;
-        justify-content: space-evenly;
+        width: min-content;
     }
 }
 
