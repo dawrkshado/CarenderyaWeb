@@ -1,0 +1,50 @@
+
+/* 2xl */
+@media (max-width: 1536px) {
+
+}
+
+/* xl */
+@media (max-width: 1280px) {
+
+}
+
+/* lg */
+@media (max-width: 1024px) {
+ 
+
+}
+
+/* md */
+@media (max-width: 768px) {
+     #delicious{
+    font-size: 4rem;
+    }
+    #findrec{
+    font-size: 2.5rem ;
+    }
+    .center {
+            text-align: center;
+    }
+
+    .navBarLinks{
+        display: none;
+    }
+    #bgPic{
+        display: none;
+    }
+    #bgPic760{
+        display:block;
+    }
+    .moreInfo {
+        margin-top: 100px;
+        width: min-content;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+}
+
+/* xs */
+@media (max-width: 475px) {}

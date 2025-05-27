@@ -10,8 +10,8 @@ body{
 }
 
 #noBGlogo{
-    width: 150px;
-    height: 100px;
+    width: 120px;
+    height: 80px;
 }
 
 #delicious{
@@ -25,10 +25,7 @@ body{
 }
 #bgPic760{
     display: none;
-    }
-
-
-
+}
 
 #searchButton{
     position: relative;
@@ -47,20 +44,27 @@ body{
     border: none;
 }
 #cook{
-    width: 175px;
+    width: 160px;
     height: 150px;
 }
-#chef{
-    height: 150px;
-    width: 100px;
+#p1{
+
+    width: 200px;
 }
+
 
 
 /*classes*/
+.moreInfo div{
+    text-align: center;
+    width: 200px;
+}
+
 .moreInfo {
     margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
+    height: 1000px;
 
 }
 
@@ -83,6 +87,7 @@ body{
     display:flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .navBar{
@@ -117,64 +122,13 @@ body{
     border: none;
     width:fit-content;
     background-color: white;
+
 }
 
 .Icons{
     display: flex;
-    height:100px;
+    height:50px;
     width:90px;
     gap: 20%;
     justify-content: center;
 }
-
-/* 2xl */
-@media (max-width: 1536px) {
-
-}
-
-/* xl */
-@media (max-width: 1280px) {
-
-}
-
-/* lg */
-@media (max-width: 1024px) {
-  
-   
-
-}
-
-/* md */
-@media (max-width: 768px) {
-     #delicious{
-    font-size: 4rem;
-
-    }
-    #findrec{
-    font-size: 2.5rem ;
-    }
-    .center {
-            text-align: center;
-    }
-
-    .navBarLinks{
-        display: none;
-    }
-    #bgPic{
-        display: none;
-    }
-    #bgPic760{
-        display: block;
-    }
-    .moreInfo {
-        margin-top: 100px;
-        width: min-content;
-    }
-}
-
-/* sm */
-@media (max-width: 640px) {
-}
-
-/* xs */
-@media (max-width: 475px) {}
