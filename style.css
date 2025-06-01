@@ -13,6 +13,9 @@ body{
     width: 120px;
     height: 80px;
 }
+#h1EasyEats{
+    height: fit-content; width: 175px; background-color: antiquewhite; font-size;
+}
 
 #delicious{
     font-size: 6.5rem;
@@ -57,7 +60,7 @@ body{
 
 .easyEats{
     background-color: #a31621;
-    width: fit-content;
+
 }
 .textWithPics{
     justify-items: center;
