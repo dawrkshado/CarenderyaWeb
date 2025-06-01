@@ -53,8 +53,16 @@ body{
 }
 
 
-
 /*classes*/
+
+.easyEats{
+    background-color: #a31621;
+    width: fit-content;
+}
+.textWithPics{
+    justify-items: center;
+}
+
 .moreInfo div{
     text-align: center;
     width: 200px;
@@ -64,7 +72,6 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
-    height: 1000px;
 
 }
 
