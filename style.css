@@ -13,9 +13,7 @@ body{
     width: 120px;
     height: 80px;
 }
-#h1EasyEats{
-    height: fit-content; width: 175px; background-color: antiquewhite; font-size;
-}
+
 
 #delicious{
     font-size: 6.5rem;
@@ -57,8 +55,24 @@ body{
 
 
 /*classes*/
+.HealthyMeals{
+    justify-items: right;
+    text-align: right;
+}
+
+.TitleTwP{
+    height: fit-content; 
+    width: 450px; 
+    background-color: antiquewhite;
+    font-size:4rem;
+}
+.TextTwP{
+    width: 500px;
+    font-size: 2rem;
+}
 
 .easyEats{
+    
     background-color: #a31621;
 
 }
