@@ -1,19 +1,47 @@
 *{
     margin: 0;
     padding: 0;
+    list-style: none;
+    font-family: 'Josefin Sans';
 
+
+}   
+li{
+    margin: 10px;
 }
+
 body{
     overflow-x: hidden;
-    font-family: 'Josefin Sans';
     background-color: white;
 }
 
-#noBGlogo{
-    width: 120px;
-    height: 80px;
+footer{
+    color: aliceblue;
+
+}
+footer img{
+    margin-right:10px;
 }
 
+#instagram{
+    margin-bottom: -5px;
+}
+#X{
+    margin-bottom: -5px;
+
+}
+#fb{
+    margin-bottom: -5px;
+}
+
+#list{
+
+}
+
+#noBGlogo{
+    height: 100px;
+
+}
 
 #delicious{
     font-size: 6.5rem;
@@ -37,6 +65,9 @@ body{
     background-color: #a31621;
     border: none;
 }
+#searchButton:hover{
+    opacity: 90%;
+}  
 
 #searchBox{
     width: 225px;
@@ -52,32 +83,94 @@ body{
 
     width: 200px;
 }
+#c, #d{
+    border-radius: 25px;
+}
+#buttonDiv{
+    width:fit-content;
+    height: fit-content;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+
+
+
+#HealthyMealsT{
+    height: fit-content; 
+    width: 450px; 
+    font-size:4rem;
+    justify-self: right;
+
+}
+#easyEats{
+    height: fit-content; 
+    width: 450px; 
+    font-size:4rem;
+}
+
 
 
 /*classes*/
+.Footer1{
+   
+}
+
+
+.Footer1{
+    height: 350px;
+    background-color: #1E212B;
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.EasyEatsB:hover{
+    opacity: 90%;
+    
+}
+
+.EasyEatsB{
+    border: none;
+    height: 30px;
+    border-radius: 25px;
+    width: 100px;
+    background-color: #a31621;
+    color: aliceblue;
+    margin-top: 100px;
+}
+.TwPButton{
+    width:fit-content;
+    height: 40px;
+    justify-self: center;
+}
+.TwPButton:hover{
+
+}
+
 .HealthyMeals{
     justify-items: right;
     text-align: right;
+    margin-top: 200px;
+    display: flex;
+
 }
 
-.TitleTwP{
-    height: fit-content; 
-    width: 450px; 
-    background-color: antiquewhite;
-    font-size:4rem;
-}
 .TextTwP{
     width: 500px;
     font-size: 2rem;
+    margin-top: 50px;
 }
 
 .easyEats{
-    
-    background-color: #a31621;
-
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .textWithPics{
-    justify-items: center;
+    justify-items: center;  
+    margin-top: 200px;
 }
 
 .moreInfo div{
@@ -86,7 +179,7 @@ body{
 }
 
 .moreInfo {
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     justify-content: space-evenly;
 
