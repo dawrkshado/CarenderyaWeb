@@ -8,6 +8,13 @@
 }   
 li{
     margin: 10px;
+    text-decoration: none;
+
+}
+
+.SocMed a{
+    text-decoration: none;
+color: aliceblue;
 }
 
 body{
@@ -107,15 +114,35 @@ footer img{
     height: fit-content; 
     width: 450px; 
     font-size:4rem;
-}
-
-
+    }
 
 /*classes*/
-.Footer1{
-   
+.TRText{
+    text-align: center;
+    color: #a31621;
+    margin-bottom: 50px;
+}
+.TRPics img{    
+    border-radius: 25px;
 }
 
+.TRPics button{    
+    border: none;
+    background-color: white;
+}
+.TRPics button :hover{
+    opacity: 50%;
+}
+
+.TRPics{
+    justify-content: space-around;
+    display: flex;
+}
+
+.TopRecipes{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .Footer1{
     height: 350px;
