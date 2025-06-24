@@ -4,7 +4,7 @@
         <meta name="viewport" content="width= device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="mediaQuery.css">
-        <script src="script.js"></script>
+        <script src="script.js" defer></script>
         <script src="https://kit.fontawesome.com/dc3d20b4dc.js" crossorigin="anonymous"></script>
         <link href='https://fonts.googleapis.com/css?family=Josefin Sans' rel='stylesheet'>
 </head>
@@ -43,12 +43,12 @@
                             <p>Explore the hottest recipes this week.</p>
                         </div>
                         <div class="TRPics">
-                            <button id="buttonLeft"><img src="/resources/arrowLeft.png"></button>
+                            <button id="buttonLeft" data-PrevNextButtn ><img src="/resources/arrowLeft.png" onclick="previousChoice"></button>
                             <img src="/resources/Chicken Fajita Bowls.jpeg" alt="Chicken Fajita Bowls" id="Fajita">
                             <img src="/resources/Creamy Fettuccine .jpg" alt="Creamy Fettuccine" id="Fettuccine">
                             <img src="/resources/LemonChickenPasta.jpg" alt="Chicken Pasta" id="Pasta">
                             <img src="/resources/Oven-Baked Salmon.jpeg" alt="Baked Salmon">
-                            <button id="buttonRight"><img src="/resources/arrowRight.png"></button>
+                            <button id="buttonRight" data-PrevNextButtn ><img src="/resources/arrowRight.png"></button>
                         </div>
                         
                     </div>

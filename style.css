@@ -6,6 +6,11 @@
 
 
 }   
+button:hover{
+    cursor: pointer;
+    
+}
+
 li{
     margin: 10px;
     text-decoration: none;
@@ -14,7 +19,7 @@ li{
 
 .SocMed a{
     text-decoration: none;
-color: aliceblue;
+    color: aliceblue;
 }
 
 body{
@@ -39,10 +44,6 @@ footer img{
 }
 #fb{
     margin-bottom: -5px;
-}
-
-#list{
-
 }
 
 #noBGlogo{
@@ -74,6 +75,7 @@ footer img{
 }
 #searchButton:hover{
     opacity: 90%;
+
 }  
 
 #searchBox{
@@ -100,9 +102,6 @@ footer img{
     margin-top: 50px;
 }
 
-
-
-
 #HealthyMealsT{
     height: fit-content; 
     width: 450px; 
@@ -114,13 +113,14 @@ footer img{
     height: fit-content; 
     width: 450px; 
     font-size:4rem;
-    }
+}
 
 /*classes*/
 .TRText{
     text-align: center;
     color: #a31621;
     margin-bottom: 50px;
+    justify-content: center;
 }
 .TRPics img{    
     border-radius: 25px;
@@ -129,14 +129,18 @@ footer img{
 .TRPics button{    
     border: none;
     background-color: white;
+    height: fit-content;
 }
 .TRPics button :hover{
     opacity: 50%;
+
 }
 
 .TRPics{
+    align-items: center;
     justify-content: space-around;
     display: flex;
+
 }
 
 .TopRecipes{
