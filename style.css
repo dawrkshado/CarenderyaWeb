@@ -114,7 +114,11 @@ footer img{
     width: 450px; 
     font-size:4rem;
 }
-
+.carousel{
+    overflow: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
 /*classes*/
 .TRText{
     text-align: center;

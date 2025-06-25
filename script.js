@@ -1,4 +1,2 @@
-const gap = 16;
-const carousel = document.getElementsByClassName("TRPics"),
-buttonLeft = document.getElementById(""),
-next = document.getElementById("");
+const TRPics = document.getElementsByClassName("TRPics");
+const buttonLeft = document.getElementById("buttonLeft");
