@@ -131,20 +131,37 @@ footer img{
 }
 
 .TRPics button{    
+
+}
+.TRButtons button:hover{
+    opacity: 50%;
+
+}
+.TRButtons button{
     border: none;
     background-color: white;
     height: fit-content;
 }
-.TRPics button :hover{
-    opacity: 50%;
-
+.TRButtons{
+    position: absolute;
+    display: flex;
+    justify-content:space-between;
+    width: 1200px;
+    left: 75px;
 }
+
 
 .TRPics{
     align-items: center;
-    justify-content: space-around;
+    column-gap: 50px;
     display: flex;
-
+    overflow-x: scroll;
+    width: 1150px;
+    align-self: center;
+    justify-self: center;
+}
+.TRPics::-webkit-scrollbar{
+    display: none;
 }
 
 .TopRecipes{
